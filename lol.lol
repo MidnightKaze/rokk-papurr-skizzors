@@ -7,27 +7,31 @@ HAI 1.2 BTW using 1.2 as opposed to the newer 1.3 cuz no one has used it much
         will likely change everything to be LOLCODE-esc later for the funsies
     TLDR
 
-    BTW initiates three variables for later use
-    I HAS A player_move
-    I HAS A result
-    I HAS A bot_move
+    BTW setting up the random function
+    HOW IZ I random YR max BTW when calling this pass in 3 for the max
+        I HAS A rannum ITZ 0
+        rannum IS NOW A NUMBR
+        rannum IS NOW MOD OF rannum AN max
+    FOUND YR rannum
 
-    BTW asks the player for their move
-    VISIBLE "GIMMEH UR MOVE CHOICE"
-    GIMMEH player_move
+    BTW initiating the function used for the bot to get their choice
+    HOW IZ I get_choice
+        I HAS A num
+        num R I IZ random YR 3 MKAY
 
-    BTW the bot chooses a move
-    VISIBLE "I IS CHOSE A MOVE TO BEAT U >:3"
-    VISIBLE "ROKK" "PAPUUR" OR "SKIZZORS" BTW it's misspelled on purpose cuz this is LOLCODE
+        BOTH SAEM num AN 0
+        O RLY?
+            YA RLY 
+                FOUND YR "rokk" BTW yes everything is misspelled cuz this is LOLCODE
+        OIC
+
+        BOTH SAEM num AN 1
+        O RLY?
+            YA RLY
+                FOUND YR "papuur"
+        OIC
+
+        FOUND YR "skizzors"
+    IF U SAY SO
 
 KTHXBYE
-
-BTW making a random function cuz LOLCODE does not have one ;-;
-
-BTW defining the random function so we can call it later
-HOW IZ I random YR max BTW when calling this pass in 3 for the max
-    I HAS A rannum ITZ 0
-    rannum IS NOW A NUMBR
-    rannum IS NOW MOD OF rannum AN max
-    FOUND YR rannum
-IF U SAY SO
