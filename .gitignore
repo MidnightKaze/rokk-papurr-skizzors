@@ -1,0 +1,10 @@
+# Ignores everything in the logz directory
+logz/**/*.log
+
+# Unignores the special logz directory
+!logz/special logz/*.log
+
+# Unignores any and all LOLCODE files ;-;
+!*.lol
+
+logz/
